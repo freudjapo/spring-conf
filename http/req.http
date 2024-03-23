@@ -1,0 +1,17 @@
+### get
+GET {{url}}/project/get
+
+### env
+GET {{url}}/actuator/env
+
+### env
+POST {{url}}/actuator/env
+Content-Type: application/json
+
+{
+  "name": "project.name",
+  "value": "world"
+}
+
+### refresh
+POST {{url}}/actuator/refresh
